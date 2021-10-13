@@ -55,7 +55,7 @@ def play_game():
             ball.bounce_off_wall()
 
         # bounce off the paddle
-        if paddle.distance(ball) < 28.8:
+        if paddle.distance(ball) <= 24.1421:
             ball.bounce()
 
         # bounce off top wall
